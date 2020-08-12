@@ -248,3 +248,6 @@ t2.start()  # A seperate thread is created here
 t1.join()  # This part will wait for the
 t2.join()
 print("End of threading example")  # Because this goes in the main thread it is executed before thread 1 and 2
+
+# Files!
+# open('generic.txt',)
